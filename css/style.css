@@ -1,0 +1,52 @@
+/* Fairouz modifications */
+
+#services
+{
+    margin-bottom: 5rem;
+}
+.service-desc h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+.line
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+    text-align: left;
+}
+.service-item
+{
+    background-color:#fff;
+    border: solid 1px transparent;
+    border-radius: 1rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+#services .service-item h2
+{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+    color: #1e1e1e;
+}
+.service-item .service-icon
+{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0,5rem;
+    border: solid 5px #0078ff;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.service-item:hover .service-icon
+{
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #0078ff; 
+}
+/* Fairouz modifications */

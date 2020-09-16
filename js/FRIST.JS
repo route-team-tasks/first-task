@@ -40,3 +40,14 @@ displayItem()
 }
 
 
+$(".img-item").click((e)=>{
+    let imgSrc = $(e.target).attr("src");
+    let mainSrc = $(`#main-image`).attr(`src`)
+    $("#main-image").fadeOut(300,function(){
+      $(`#main-image`).attr(`src`,imgSrc)
+      $(e.target).attr(`src`,mainSrc)
+      $(`#main-image`).fadeIn(400)
+      $(`.img-item`).fadeIn(400)
+    })
+    
+    })

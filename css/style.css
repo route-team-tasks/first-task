@@ -50,3 +50,10 @@
     box-shadow: 0 0 0 10px #0078ff; 
 }
 /* Fairouz modifications */
+.img-item
+{
+    width: 20%;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}

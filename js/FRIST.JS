@@ -39,4 +39,3 @@ items.splice(deletedItem,1)
 displayItem()
 }
 
-

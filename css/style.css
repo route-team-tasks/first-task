@@ -1,3 +1,11 @@
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6
+{
+    line-height: 1.3;
+}
 /* Fairouz modifications */
 
 #services
@@ -50,6 +58,7 @@
     box-shadow: 0 0 0 10px #0078ff; 
 }
 /* Fairouz modifications */
+<<<<<<< HEAD
 /* Helmy */
 .destination-container {
     display: flex;
@@ -88,3 +97,42 @@
 #barcelona {
     background-color: #800000;
 }
+=======
+
+/* Sara modifications */
+.textLayer h1 ,h2
+{
+    font-weight: bolder;
+}
+.textLayer h1
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+.textLayer h2
+{
+    font-size: 2.25rem;
+}
+#Team .profile
+{
+    position: relative;
+    overflow: hidden;
+}
+#Team .caption
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:100%;
+    left: 0%;
+    background-color: rgba(0, 195, 218, 0.9);
+    color: white;
+    transition: all 1s;
+}
+#Team .profile:hover .caption
+{
+    top:0%;
+}
+/* Sara modifications */
+
+>>>>>>> 0a9021ee3e1cae5cd2a3a37a8a28e144fb0888f6
